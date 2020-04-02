@@ -9,8 +9,8 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |number, element|
-    phrase = puts "#{number+1}. #{element}"
-    phrase
+    puts "#{number+1}. #{element}"
+  
   end
   # Use `each_with_index` to enumerate over the provided array
   #
