@@ -9,9 +9,10 @@ end
 
 def list_dwarves(array)
   
-  array.each_with_index do |index + 1, element|
-    index.to_s
-    puts "#{index}. #{element}"
+  array.each_with_index do |index, element|
+    index + 1 = new_index
+    new_index.to_s
+    puts "#{new_index}. #{element}"
   
   end
 end
